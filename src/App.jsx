@@ -9,7 +9,7 @@ function App () {
   return (
     <>
 
-      <main className=' grid pb-44 px-3 gap-4  sm:px-0 grid-cols-1 sm:grid-cols-3 overflow-hidden w-full sm:w-max sm:gap-[10px] place-items-center mx-auto  '>
+      <main className=' grid pb-64 sm:pb-44 px-3 gap-4  sm:px-0 grid-cols-1 sm:grid-cols-3 overflow-hidden w-full sm:w-max sm:gap-[10px] place-items-center mx-auto  '>
         {
           projects?.map((project) => (
             <ProjectCard

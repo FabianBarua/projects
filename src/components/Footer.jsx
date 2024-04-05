@@ -17,7 +17,7 @@ export const Footer = () => {
   )
 
   return (
-    <footer className='flex items-center gap-3 sm:flex-row flex-col-reverse px-[25px] justify-between max-w-2xl sm:w-full w-[96%] sm:h-20 p-3 bg-stone-900 rounded-xl sm:rounded-3xl fixed bottom-[50px] left-1/2 -translate-x-1/2 shadow-[0_4px_23px_15px_rgb(0_0_0_/_0.25);] '>
+    <footer className='flex items-center py-8 sm:py-0 gap-3 sm:flex-row flex-col-reverse px-[25px] justify-between max-w-2xl sm:w-full w-[96%] sm:h-20 p-3 bg-stone-900 rounded-xl sm:rounded-3xl fixed bottom-[50px] left-1/2 -translate-x-1/2 shadow-[0_4px_23px_15px_rgb(0_0_0_/_0.25);] '>
       <div className=' relative w-full'>
         <IconSearch className=' text-stone-500 absolute top-1/2 left-[13px] -translate-y-1/2' />
         <input

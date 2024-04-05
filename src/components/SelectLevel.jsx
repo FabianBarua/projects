@@ -2,7 +2,7 @@ import { IconDown } from '@components/Icons'
 import { SelectItem } from '@components/SelectItem'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { useProjectsStore } from '../stores/projectsStore'
+import { useProjectsStore } from '../utils/stores/projectsStore'
 
 const variantsArrow = {
   open: { rotate: -180 },

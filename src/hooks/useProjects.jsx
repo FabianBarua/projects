@@ -1,4 +1,4 @@
-import { useProjectsStore } from '../stores/projectsStore'
+import { useProjectsStore } from '../utils/stores/projectsStore'
 
 export const useProjects = () => {
   // zustand store

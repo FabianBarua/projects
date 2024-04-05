@@ -1,7 +1,7 @@
 import { IconSearch } from '@components/Icons'
 import { SelectLevel } from './SelectLevel'
 import { useDebouncedCallback } from 'use-debounce'
-import { useProjectsStore } from '../stores/projectsStore'
+import { useProjectsStore } from '../utils/stores/projectsStore'
 
 export const Footer = () => {
   const { setFilters } = useProjectsStore()

@@ -1,0 +1,199 @@
+{
+    "allProjects": [
+        {
+            "id": 0,
+            "name": "Web Personal",
+            "description": "Mi web personal con datos y proyectos.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },            
+            "gitUrl": "https://github.com/FabianBarua/react-proyects/tree/main/proyects/01-TwitterCard",
+            "webUrl": "https://reacttwittercard-fb.web.app/",
+            "level": {
+                "id": 1,
+                "name": "Easy"
+            }
+        },
+        {
+            "id": 1,
+            "name": "Xtream Player",
+            "description": "App para asistir peliculas por un usuario de xPlayer.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },
+            "gitUrl": "https://github.com/FabianBarua/xtreamPlayer",
+            "webUrl": "https://fabianbarua.github.io/xtreamPlayer/",
+            "level": {
+                "id": 1,
+                "name": "Easy"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Character Generator",
+            "description": "App para generar personajes y exportarlos en png.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },
+            "gitUrl": "https://github.com/FabianBarua/characterGenerator",
+            "webUrl": "https://fabianbarua.github.io/characterGenerator/",
+            "level": {
+                "id": 1,
+                "name": "Easy"
+            }
+        },
+        {
+            "id": 3,
+            "name": "SpaceX",
+            "description": "App para asistir peliculas por un usuario de xPlayer.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },
+            "gitUrl": "https://github.com/FabianBarua/spaceX",
+            "webUrl": "https://fabianbarua.github.io/spaceX/",
+            "level": {
+                "id": 1,
+                "name": "Easy"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Minimal Blog Card",
+            "description": "Card de ejemplo para un reto de tailiwnd.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },
+            "gitUrl": "https://github.com/FabianBarua/minimalBlogCard",
+            "webUrl": "https://fabianbarua.github.io/minimalBlogCard/",
+            "level": {
+                "id": 1,
+                "name": "Easy"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Coffee Listing",
+            "description": "App sencilla para listar cafes.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },
+            "gitUrl": "https://github.com/FabianBarua/coffeeListing",
+            "webUrl": "https://coffee-listing-fb.vercel.app/",
+            "level": {
+                "id": 1,
+                "name": "Easy"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Image Uploader",
+            "description": "App para subir imagenes a un servidor.",
+            "status": {
+                "active": false,
+                "tag": "En desarrollo"
+            },            
+            "gitUrl": "https://github.com/FabianBarua/uploadImage",
+            "webUrl": null,
+            "level": {
+                "id": 3,
+                "name": "Hard"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Catalogo Alphaplay",
+            "description": "App para ver catalogo de peliculas.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },            
+            "gitUrl": "https://github.com/FabianBarua/catalogoAlphaplay",
+            "webUrl": "https://alphaplay-catalogo.vercel.app/",
+            "level": {
+                "id": 2,
+                "name": "Medium"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Tic Tac Toe",
+            "description": "Juego de gato en react.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },            
+            "gitUrl": "https://github.com/FabianBarua/react-proyects/tree/main/proyects/02-TicTacToe",
+            "webUrl": "https://tiktaktoe-fabianbarua.netlify.app/",
+            "level": {
+                "id": 1,
+                "name": "Easy"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Mouse follower",
+            "description": "Ejercicio practico de seguir el mouse con css y js.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },            
+            "gitUrl": "https://github.com/FabianBarua/react-proyects/tree/main/proyects/03-MouseFollow",
+            "webUrl": "https://mouse-follow-fabianbarua.netlify.app/",
+            "level": {
+                "id": 1,
+                "name": "Easy"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Prueba tecnica JR",
+            "description": "Prueba tecnica jr, peticiones a API y renderizado de datos.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },            
+            "gitUrl": "https://github.com/FabianBarua/react-proyects/blob/main/proyects/04-CatTest",
+            "webUrl": "https://cat-test-fabianbarua.netlify.app",
+            "level": {
+                "id": 1,
+                "name": "Easy"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Movies search",
+            "description": "App para realizar busquedas de peliculas y filtrarlas.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },            
+            "gitUrl": "https://github.com/FabianBarua/react-proyects/tree/main/proyects/05-MoviesSearch",
+            "webUrl": "https://movies-search-fabianbarua.netlify.app/",
+            "level": {
+                "id": 2,
+                "name": "Medium"
+            }
+        },
+        {
+            "id": 12,
+            "name": "React Shop",
+            "description": "App para comprar productos y ver el carrito.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },            
+            "gitUrl": "https://github.com/FabianBarua/react-proyects/tree/main/proyects/06-ReactShop",
+            "webUrl": "https://react-shop-fabianbarua.netlify.app/",
+            "level": {
+                "id": 2,
+                "name": "Medium"
+            }
+        }
+    ]
+}

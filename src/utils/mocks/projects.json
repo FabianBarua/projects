@@ -95,11 +95,11 @@
             "name": "Image Uploader",
             "description": "App para subir imagenes a un servidor.",
             "status": {
-                "active": false,
-                "tag": "En desarrollo"
+                "active": true,
+                "tag": "Active"
             },            
             "gitUrl": "https://github.com/FabianBarua/uploadImage",
-            "webUrl": null,
+            "webUrl": "https://uploader-fb.vercel.app/",
             "level": {
                 "id": 3,
                 "name": "Hard"

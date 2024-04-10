@@ -17,7 +17,7 @@ function App () {
               key={project.id}
               title={project.name}
               description={project.description}
-              level={project.level.name}
+              level={project.level}
               webUrl={project.webUrl}
               gitUrl={project.gitUrl}
               status={project.status}

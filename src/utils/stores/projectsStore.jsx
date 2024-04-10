@@ -13,7 +13,6 @@ export const useProjectsStore = create((set) => ({
   },
 
   setFilters (newFilter) {
-    console.log(newFilter)
     set((state) => ({
       filters: {
         ...state.filters,

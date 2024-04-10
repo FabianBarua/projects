@@ -8,8 +8,8 @@
                 "active": true,
                 "tag": "Active"
             },            
-            "gitUrl": "https://github.com/FabianBarua/react-proyects/tree/main/proyects/01-TwitterCard",
-            "webUrl": "https://reacttwittercard-fb.web.app/",
+            "gitUrl": "https://github.com/FabianBarua/portfolio",
+            "webUrl": "https://fabianbarua.vercel.app/",
             "level": {
                 "id": 1,
                 "name": "Easy"
@@ -193,6 +193,36 @@
             "level": {
                 "id": 2,
                 "name": "Medium"
+            }
+        },
+        {
+            "id": 13,
+            "name": "Quanta Products",
+            "description": "Ecommerce de aparatos electronicos.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },            
+            "gitUrl": null,
+            "webUrl": "https://www.quanta.com.py/",
+            "level": {
+                "id": 3,
+                "name": "Hard"
+            }
+        },
+        {
+            "id": 14,
+            "name": "Twitter Card",
+            "description": "Componente de card de twitter con react.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },            
+            "gitUrl": "https://github.com/FabianBarua/react-proyects/tree/main/proyects/01-TwitterCard",
+            "webUrl": "https://reacttwittercard-fb.web.app/",
+            "level": {
+                "id": 1,
+                "name": "Easy"
             }
         }
     ]

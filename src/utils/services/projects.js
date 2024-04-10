@@ -11,8 +11,11 @@ export const getLevels = () => {
 
 export const getProjects = () => {
   return new Promise((resolve, reject) => {
+    const sortedProjects = projects.allProjects.sort((a, b) => {
+      return b.level.id - a.level.id
+    })
     setTimeout(() => {
-      resolve(projects.allProjects)
+      resolve(sortedProjects)
     }, 300)
   })
 }

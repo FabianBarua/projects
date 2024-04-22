@@ -7,7 +7,7 @@
             "status": {
                 "active": true,
                 "tag": "Active"
-            },            
+            },
             "gitUrl": "https://github.com/FabianBarua/portfolio",
             "webUrl": "https://fabianbarua.vercel.app/",
             "level": {
@@ -97,7 +97,7 @@
             "status": {
                 "active": true,
                 "tag": "Active"
-            },            
+            },
             "gitUrl": "https://github.com/FabianBarua/uploadImage",
             "webUrl": "https://uploader-fb.vercel.app/",
             "level": {
@@ -112,7 +112,7 @@
             "status": {
                 "active": true,
                 "tag": "Active"
-            },            
+            },
             "gitUrl": "https://github.com/FabianBarua/catalogoAlphaplay",
             "webUrl": "https://alphaplay-catalogo.vercel.app/",
             "level": {
@@ -127,7 +127,7 @@
             "status": {
                 "active": true,
                 "tag": "Active"
-            },            
+            },
             "gitUrl": "https://github.com/FabianBarua/react-proyects/tree/main/proyects/02-TicTacToe",
             "webUrl": "https://tiktaktoe-fabianbarua.netlify.app/",
             "level": {
@@ -142,7 +142,7 @@
             "status": {
                 "active": true,
                 "tag": "Active"
-            },            
+            },
             "gitUrl": "https://github.com/FabianBarua/react-proyects/tree/main/proyects/03-MouseFollow",
             "webUrl": "https://mouse-follow-fabianbarua.netlify.app/",
             "level": {
@@ -157,7 +157,7 @@
             "status": {
                 "active": true,
                 "tag": "Active"
-            },            
+            },
             "gitUrl": "https://github.com/FabianBarua/react-proyects/blob/main/proyects/04-CatTest",
             "webUrl": "https://cat-test-fabianbarua.netlify.app",
             "level": {
@@ -172,7 +172,7 @@
             "status": {
                 "active": true,
                 "tag": "Active"
-            },            
+            },
             "gitUrl": "https://github.com/FabianBarua/react-proyects/tree/main/proyects/05-MoviesSearch",
             "webUrl": "https://movies-search-fabianbarua.netlify.app/",
             "level": {
@@ -187,7 +187,7 @@
             "status": {
                 "active": true,
                 "tag": "Active"
-            },            
+            },
             "gitUrl": "https://github.com/FabianBarua/react-proyects/tree/main/proyects/06-ReactShop",
             "webUrl": "https://react-shop-fabianbarua.netlify.app/",
             "level": {
@@ -202,7 +202,7 @@
             "status": {
                 "active": true,
                 "tag": "Active"
-            },            
+            },
             "gitUrl": null,
             "webUrl": "https://www.quanta.com.py/",
             "level": {
@@ -217,12 +217,27 @@
             "status": {
                 "active": true,
                 "tag": "Active"
-            },            
+            },
             "gitUrl": "https://github.com/FabianBarua/react-proyects/tree/main/proyects/01-TwitterCard",
             "webUrl": "https://reacttwittercard-fb.web.app/",
             "level": {
                 "id": 1,
                 "name": "Easy"
+            }
+        },
+        {
+            "id": 15,
+            "name": "Rick and Morty",
+            "description": "Web utilizando la API de Rick and Morty.",
+            "status": {
+                "active": true,
+                "tag": "Active"
+            },
+            "gitUrl": "https://github.com/FabianBarua/rickAndMorty",
+            "webUrl": "https://fb-rick-and-morty.vercel.app/",
+            "level": {
+                "id": 3,
+                "name": "Hard"
             }
         }
     ]

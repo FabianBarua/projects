@@ -22,7 +22,7 @@ export const ProjectCard = ({ title, description, level, webUrl, gitUrl, status,
         />
       </a>
 
-      <header className=' flex px-2 relative flex-col gap-[6.93px] cursor-default'>
+      <header className=' flex px-2 relative flex-col gap-[6.93px] my-4 lg:my-0 cursor-default'>
         <h1 className=' lg:text-[15.33px] text-xl  leading-5 lg:leading-[17.33px] font-bold text-neutral-50 truncate'>{title}</h1>
         <h2 className=' text-neutral-500 lg:text-[12.13px] lg:h-[28px] text-base line-clamp-2 leading-5 lg:leading-[13.13px] lg:max-w-[221px] max-w-[200px]   '>{description}</h2>
       </header>

@@ -19,10 +19,10 @@ export const LevelButton = ({ level }) => {
       cursor-pointer
       rounded-[5.69px]
       font-medium
-      sm:text-[11px]
+      lg:text-[11px]
       text-base
       leading-4
-      sm:leading-[13.8px]
+      lg:leading-[13.8px]
       transition-all ease-in
       bg-neutral-800
 
@@ -30,7 +30,7 @@ export const LevelButton = ({ level }) => {
 
       px-[4.8px]
       py-2
-      sm:py-[4.07px]
+      lg:py-[4.07px]
       relative
       ${isSelected ? ' pr-3 mr-2' : '      hover:bg-neutral-600       hover:text-neutral-800'}
       `}

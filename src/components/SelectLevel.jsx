@@ -25,7 +25,7 @@ export const SelectLevel = () => {
   return (
     <>
 
-      <div className=' relative sm:w-min w-full '>
+      <div className=' relative lg:w-min w-full '>
         <AnimatePresence>
 
           {open && (
@@ -50,7 +50,7 @@ export const SelectLevel = () => {
           )}
         </AnimatePresence>
 
-        <div onClick={() => { setOpen(!open) }} className=' min-w-32  cursor-pointer hover:bg-stone-800/50 rounded-[10px] pl-[18px] pr-2 items-center flex text-[16.72px] sm:max-w-[148px] w-full h-[34px] border border-stone-500 text-stone-500 gap-3 '>
+        <div onClick={() => { setOpen(!open) }} className=' min-w-32  cursor-pointer hover:bg-stone-800/50 rounded-[10px] pl-[18px] pr-2 items-center flex text-[16.72px] lg:max-w-[148px] w-full h-[34px] border border-stone-500 text-stone-500 gap-3 '>
           <p className=' w-full'>{filters.level.name || 'Level'}</p>
           <motion.div
             animate={open ? 'open' : 'closed'}

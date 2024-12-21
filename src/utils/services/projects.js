@@ -14,8 +14,15 @@ export const getProjects = () => {
     const sortedProjects = projects.allProjects.sort((a, b) => {
       return b.level.id - a.level.id
     })
+
+    // the objects that have image first order
+    const withImage = sortedProjects.sort((a, b) => {
+      return a.image ? -1 : 1
+    }
+    )
+
     setTimeout(() => {
-      resolve(sortedProjects)
+      resolve(withImage)
     }, 300)
   })
 }

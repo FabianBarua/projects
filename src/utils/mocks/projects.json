@@ -17,7 +17,7 @@
       "image": "/web-images/personal.png"
     },
     {
-      "id": 7,
+      "id": 1,
       "name": "Alphaplay",
       "description": "Sitio ecommerce de venta de peliculas.",
       "status": {
@@ -203,7 +203,7 @@
       "image": "/web-images/metodoiphone.png"
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "Interbras",
       "description": "Catalogo de productos de Interbras.",
       "status": {
@@ -217,6 +217,21 @@
         "name": "Hard"
       },
       "image": "/web-images/interbras.png"
+    },
+    {
+      "id": 20,
+      "name": "Coffee Listing",
+      "description": "App sencilla para listar cafes.",
+      "status": {
+        "active": true,
+        "tag": "Active"
+      },
+      "gitUrl": "https://github.com/FabianBarua/coffeeListing",
+      "webUrl": "https://coffee-listing-fb.vercel.app/",
+      "level": {
+        "id": 1,
+        "name": "Easy"
+      }
     }
   ]
 }

@@ -6,26 +6,28 @@ import { LevelButton } from './LevelButton'
 export const ProjectCard = ({ title, description, level, webUrl, gitUrl, status, image }) => {
   return (
     <div
-      className=' sm:w-[295px]  h-full  w-full px-5 pt-5 pb-[15px] flex flex-col relative sm:gap-[10px] bg-stone-900 hover:bg-stone-900/85 border border-transparent hover:border-stone-700  transition-all ease-in rounded-[10px]'
+      className=' sm:w-[295px]  h-full  w-full px-3 pt-3 pb-[15px] flex flex-col relative sm:gap-[10px] bg-stone-900 hover:bg-stone-900/85 border border-transparent hover:border-stone-700  transition-all ease-in rounded-[10px]'
     >
-      {
-        image && (
-          <a className='absolute top-3 left-0 w-full h-[130px]  '>
-            <img
-              src={image}
-              alt={title}
-              className=' sm:h-[130px] w-[calc(100%-24px)] object-cover object-top rounded-t-[10px] mask  mx-auto'
-            />
-          </a>
-        )
-      }
 
-      <header className=' flex relative mt-20 flex-col gap-[6.93px] cursor-default'>
+      <a
+        href={webUrl}
+        target='_blank'
+        className=' w-full '
+        rel='noreferrer'
+      >
+        <img
+          src={image || 'https://cdn.pixabay.com/photo/2017/06/27/07/23/fabric-2446476_960_720.jpg'}
+          alt={title}
+          className=' sm:h-[90px] w-full object-cover object-top rounded-[10px]  mx-auto transition-all ease-in'
+        />
+      </a>
+
+      <header className=' flex px-2 relative flex-col gap-[6.93px] cursor-default'>
         <h1 className=' sm:text-[15.33px] text-xl  leading-5 sm:leading-[17.33px] font-bold text-neutral-50 truncate'>{title}</h1>
         <h2 className=' text-neutral-500 sm:text-[12.13px] sm:h-[28px] text-base line-clamp-2 leading-5 sm:leading-[13.13px] sm:max-w-[221px] max-w-[200px]   '>{description}</h2>
       </header>
 
-      <div className='  relative flex gap-[4.07px] justify-end sm:justify-start '>
+      <div className='  px-2 relative flex gap-[4.07px] justify-end sm:justify-start '>
         {
           !status?.active && (
             <>

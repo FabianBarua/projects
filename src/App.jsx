@@ -21,6 +21,7 @@ function App () {
               webUrl={project.webUrl}
               gitUrl={project.gitUrl}
               status={project.status}
+              image={project.image}
             />
           ))
           }

@@ -6,7 +6,7 @@ import { LevelButton } from './LevelButton'
 export const ProjectCard = ({ title, description, level, webUrl, gitUrl, status, image }) => {
   return (
     <div
-      className=' lg:w-[295px]  h-full  w-full px-3 pt-3 pb-[15px] flex flex-col relative lg:gap-[10px] bg-stone-900 hover:bg-stone-900/85 border border-transparent hover:border-stone-700  transition-all ease-in rounded-[10px]'
+      className=' lg:w-[295px]  h-full  w-full px-3 pt-3 pb-[15px] flex flex-col relative lg:gap-[10px] bg-neutral-900 hover:bg-neutral-900/85 border border-transparent hover:border-neutral-700  transition-all ease-in rounded-[10px]'
     >
 
       <a

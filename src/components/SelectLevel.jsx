@@ -35,7 +35,7 @@ export const SelectLevel = () => {
               exit={{ opacity: 0, scale: 0.5 }}
               transition={{ duration: 0.1 }}
             >
-              <div className=' shadow-lg  min-h-8 gap-1 flex flex-col absolute  w-full max-h-32  left-0 bg-stone-900   overflow-auto  p-1 text-stone-500   -top-2 -translate-y-full  outline outline-1 outline-stone-500 rounded-[10px]'>
+              <div className=' shadow-lg  min-h-8 gap-1 flex flex-col absolute  w-full max-h-32  left-0 bg-neutral-900   overflow-auto  p-1 text-neutral-500   -top-2 -translate-y-full  outline outline-1 outline-neutral-500 rounded-[10px]'>
                 {levels?.map((level) => (
                   <SelectItem
                     key={level.id}
@@ -50,7 +50,7 @@ export const SelectLevel = () => {
           )}
         </AnimatePresence>
 
-        <div onClick={() => { setOpen(!open) }} className=' min-w-32  cursor-pointer hover:bg-stone-800/50 rounded-[10px] pl-[18px] pr-2 items-center flex text-[16.72px] lg:max-w-[148px] w-full h-[34px] border border-stone-500 text-stone-500 gap-3 '>
+        <div onClick={() => { setOpen(!open) }} className=' min-w-32  cursor-pointer hover:bg-neutral-800/50 rounded-[10px] pl-[18px] pr-2 items-center flex text-[16.72px] lg:max-w-[148px] w-full h-[34px] border border-neutral-500 text-neutral-500 gap-3 '>
           <p className=' w-full'>{filters.level.name || 'Level'}</p>
           <motion.div
             animate={open ? 'open' : 'closed'}

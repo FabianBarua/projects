@@ -1,7 +1,7 @@
 export const Credits = () => {
   return (
     <div className=" lg:fixed mb-4 lg:mb-0 w-[96%] lg:w-max mx-auto lg:bottom-4 lg:left-4 z-50 ">
-      <article className="font-mono py-3 border border-stone-800 bg-stone-900 mt-8 relative flex p-2 rounded-2xl bg-default-100/50 shadow-xl">
+      <article className="font-mono py-3 border border-neutral-800 bg-neutral-900 mt-8 relative flex p-2 rounded-2xl bg-default-100/50 shadow-xl">
         <a
           className="relative my-auto size-16 min-h-16 flex justify-center"
           href="https://fabianbarua.vercel.app/"

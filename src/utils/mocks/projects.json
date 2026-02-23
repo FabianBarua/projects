@@ -33,22 +33,6 @@
       "image": "/web-images/xplus.png"
     },
     {
-      "id": 1,
-      "name": "Alphaplay",
-      "description": "Sitio ecommerce de venta de peliculas.",
-      "status": {
-        "active": true,
-        "tag": "Active"
-      },
-      "gitUrl": null,
-      "webUrl": "https://alphaplay.tv",
-      "level": {
-        "id": 2,
-        "name": "hard"
-      },
-      "image": "/web-images/alphaplay.png"
-    },
-    {
       "id": 7,
       "name": "Catalogo Alphaplay",
       "description": "App para ver catalogo de peliculas.",

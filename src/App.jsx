@@ -12,7 +12,7 @@ function App () {
     <>
       <MouseFollower />
       <Credits />
-      <main className=' grid pb-64 lg:pb-44 px-3 gap-4  lg:px-0 grid-cols-1 lg:grid-cols-3 overflow-hidden w-full lg:w-max lg:gap-[10px] place-items-center mx-auto  '>
+      <main className=' grid pb-64 lg:pb-44 px-3 gap-4  lg:px-0 grid-cols-1 lg:grid-cols-4 overflow-hidden w-full lg:w-max lg:gap-[10px] place-items-center mx-auto  '>
         {
           projects?.map((project) => (
             <ProjectCard
